@@ -1,0 +1,109 @@
+.Room-userContainer {
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Room-scoresContainer {
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 40px;
+}
+
+.Room-pointButton {
+  display: inline-block;
+  vertical-align: top;
+  width: 16.66666666666666666667%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.Room-userList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Room-userListItem {
+  padding: 10px;
+  border-bottom: 1px solid;
+  position: relative;
+  cursor: default;
+}
+
+.Room-userListItemNameContainer {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  width: calc(100% - 50px);
+}
+
+.Room-userListItemScoreContainer {
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  width: 50px;
+}
+
+.Room-hiddenScore {
+  background: #000000;
+  text-align: center;
+}
+
+.Room-hiddenScore::after {
+  content: '.';
+  color: #000000;
+}
+
+.Room-hiddenScore.decided::after {
+  content: '\2713';
+  color: #FFFFFF;
+}
+
+.Room-removeUserLabel {
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Room-changeNameBtn {
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.Room-scoresActionBtn {
+  font-size: 15px;
+  width: 50%;
+}
+
+.Room-totalsContainer {
+  padding: 10px;
+  border: 1px solid #D9D9D9;
+  margin-top: 15px;
+}
+
+.Room-totalsTitle {
+  margin: 0 0 10px 0;
+}
+
+.Room-totalsTitleUnanimous {
+  color: green;
+}
+
+.Room-totalScoresTable {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 100%;
+}
+
+.Room-totalScoresTableHead {
+  border-bottom: 1px solid;
+}
+
+.Room-totalScoresTableData {
+  padding: 10px;
+}
