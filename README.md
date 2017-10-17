@@ -4,7 +4,7 @@ This tool was built to help our teams estimate their product backlogs. This was 
 
 ### Demo
 
-You can view a demo of this tool here - https://weaver-peter-86075.netlify.com. Since this is a public demo and on a free plan from Firebase, there is no guarantee this will be working because of storage and download limits. That is why you should [setup](#setup) your own instance!
+You can view a demo of this tool here - https://weaver-peter-86075.netlify.com. Obviously I have no design chops, but it works 😉. Since this is a public demo and on a free plan from Firebase, there is no guarantee this will be working because of storage and download limits. That is why you should [setup](#setup) your own instance! Plus, that way you can add some better design if you want as well 👍.
 
 - You can create a session (or join if you already know the session name) by adding your session name, user name, and user type.
 - Once the session is created, you can have others join by sharing the room url - `http://example.com/#/room/${session name}`.
@@ -21,4 +21,4 @@ You can view a demo of this tool here - https://weaver-peter-86075.netlify.com. 
 1. Replace the Firebase script tags in the [public/index.html](public/index.html) with the ones from your Firebase project. This can be found in the Firebase console under ***Authentication -> Web Setup*** as shown below. ![Web Setup](docs/imgs/webSetup.png)
 1. In the Firebase console under ***Database -> Rules***, update read and write to be `true` as shown below. ![Rules](docs/imgs/rules.png)
 1. Run `yarn install` and `yarn build` in the repo. This will create the `build` directory with all the assets needed. Then you can deploy it as a static website using a free hosting provider like [Netlify](https://www.netlify.com/).
-    - After deploying, you may also want to add the domain to the Authorized Domains list in your Firebase console under ***Authentication -> Sign-in Method -> Add Domain*** as shown below. ![Authorized Domains](docs/imgs/authDomains.png)
+    - After deploying, you may also want to add the domain to the Authorized Domains list in your Firebase console under ***Authentication -> Sign-in Method -> Add Domain*** as shown below. You may also want to remove the localhost entry there as well. ![Authorized Domains](docs/imgs/authDomains.png)
