@@ -1,6 +1,6 @@
 {
   "name": "firebase-agile-poker",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "dependencies": {
     "normalize-css": "^2.3.1",
@@ -14,5 +14,23 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "A consensus-based estimating tool",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkartchner994/agile-poker.git"
+  },
+  "keywords": [
+    "Agile",
+    "Agile Poker",
+    "Planning Poker"
+  ],
+  "author": "Morgan Kartchner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkartchner994/agile-poker/issues"
+  },
+  "homepage": "https://github.com/mkartchner994/agile-poker#readme"
 }
