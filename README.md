@@ -2,6 +2,13 @@
 
 This tool was built to help our teams estimate their product backlogs. This was mostly built for fun/learning so I don't plan to document it extremely well, but it has been useful so I thought I would share it and show how to set it up so that others can use it for their backlog meetings as well.
 
+### Demo
+
+You can view a demo of this tool here - https://weaver-peter-86075.netlify.com. Since this is a public demo and on a free plan from Firebase, there is no guarantee this will be working because of storage and download limits. That is why you should [setup](#setup) your own instance!
+
+- You can create a session (or join if you already know the session name) by adding your session name, user name, and user type.
+- Once the session is created, you can have others join by sharing the room url - `http://example.com/#/room/${session name}`.
+
 ### Tech
 - [React](https://reactjs.org/) using [Create React App](https://github.com/facebookincubator/create-react-app)
 - [yarn](https://yarnpkg.com/en/)
