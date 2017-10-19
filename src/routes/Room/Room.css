@@ -1,14 +1,13 @@
-.Room-userContainer {
-  width: 400px;
-  display: inline-block;
-  vertical-align: top;
-}
-
+.Room-userContainer,
 .Room-scoresContainer {
   width: 400px;
   display: inline-block;
   vertical-align: top;
-  padding-left: 40px;
+  padding: 20px;
+}
+
+h2 {
+  margin: 20px;
 }
 
 .Room-pointButton {
