@@ -67,8 +67,8 @@ class Room extends React.Component {
     let players = users.filter(user => user.userType === "player");
     let observers = users.filter(user => user.userType === "observer");
     return (
-      <div>
-        <h2>Session: {this.sessionName}</h2>
+      <div className="Room-container">
+        <h2 classNames="Room-heading">Session: {this.sessionName}</h2>
 
         <div className="Room-userContainer">
           {this._renderPointButtons()}
